@@ -1,8 +1,8 @@
 ﻿#include <iostream>
 #include <clocale>
 #include <cmath>
-using namespace std;
 
+using namespace std;
 
 int main()
 {
@@ -13,7 +13,8 @@ int main()
     S = 0.0;
     a = 0.0;
     e = 0.0001;
-        while (a < e) {
+        while (a < e) 
+        {
             b = (3 * n - 2) * (3 * n + 1);
             a = 1 / b;
             S += a;
